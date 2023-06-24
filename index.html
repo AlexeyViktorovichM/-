@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-резюме</title>
+    <meta name="description" content="Представлено резюме необходимого Вам работника">
+    <meta name="keywords" content="резюме, найти специалиста, вундеркинд">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *   {
+            margin: 5px;
+            padding: 5px;
+        }
+        .container {
+           max-width: 800px;
+           margin: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="info card">
+            <img src="Imgs\Алексей Викторович.jpg" alt="Алексей Викторович.jpg" class="avatar">
+            <div clas="info-text">
+                <h1>Алексей Мальков</h1>
+                <p>В прошлом -<strong>военный испытатель</strong>.<br>Сейчас -<strong>работающий пенсионер</strong></p>
+                <p>Подрабатываю для<em>покупки косметики</em>жене,<em> посильной помощи</em>зятю с дочкой и внучкой <br>и<em>оплаты образования</em>сыну</p>
+                <h3>Список социальных сетей:</h3>
+                <p class="navbar">
+                    <a href="https://ok.ru/profile/332388478521" target="_blank">Одноклассники</a> |
+                    <a href="https://vk.com/id60979402" target="_blank">ВКонтакте</a>
+                </p>
+            </div>
+        </header>
+        <div class="card">
+            <div class="hobbi">
+                <h3>Мои хобби:</h3>
+                <ol class="list">
+                    <li>Познавать новое, искать обучающий контент</li>
+                    <li>Контроль обстановки в мире</li>
+                    <li>Поддержка связи с моими контактами</li>
+                </ol>
+            </div>
+            <div class="opyt"><h3>Опыт работы:</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Организация</th>
+                            <th>Занимаемая должность</th>
+                            <th>Годы работы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Военное училище</td>
+                            <td>Курсант</td>
+                            <td>1987-1992</td>
+                        </tr>
+                        <tr>
+                            <td>Космодром Капустин Яр</td>
+                            <td>Инженер-испытатель</td>
+                            <td>1992-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Минобороны России</td>
+                            <td>Научный сотрудник</td>
+                            <td>2015 - по наст.время</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="svyaz"><h3>Связаться со мной</h3>
+                <form>
+                    <div>
+                        <label for="name">Ваше имя:</label>
+                        <input type="text"id="name" placeholder="Введите имя">
+                    </div>
+                    <div>
+                        <label for="email">Ваш email:</label>
+                        <input type="email"id="email" placeholder="Введите email">
+                    </div>
+                    <div>
+                        <label for="message">Ваше сообщение:</label><br>
+                        <textarea id="message" cols="50" rows="5" placeholder="Введите сообщение..."></textarea>
+                    </div>
+                    <button class="btn" type="submit"><strong>Отправить!</strong></button>
+                </form>
+            </div>
+        </div>    
+    
+        
+    </div>
+
+</body>
+</html>
